@@ -1,0 +1,30 @@
+.fighters
+{
+    width: 100%;
+    align: center;
+    cellspacing: 0;
+    cellpadding: 3;
+    border: 1px solid #B0BEC5;
+    background: #EEEEEE;
+}
+
+.fighters-primary
+{
+    width: 15%;
+    align: right;
+    background: #DBE0E2;
+}
+
+.fighters-secundary
+{
+    background: #f6f6f6;
+    border-left: 1px solid #B0BEC5;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.aviones-imagen
+{
+    width: 120;
+    height: 48;
+}
