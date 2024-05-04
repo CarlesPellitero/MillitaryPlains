@@ -28,3 +28,9 @@
     width: 120;
     height: 48;
 }
+
+#fightersDIV
+{
+    width: 100%;
+    display: none;
+}
