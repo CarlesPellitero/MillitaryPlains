@@ -1,4 +1,4 @@
-.fighters, .bombers
+.fighters, .bombers, .aircraft
 {
     width: 100%;
     align: center;
@@ -8,7 +8,7 @@
     background: #EEEEEE;
 }
 
-.fighters-primary, .bombers-primary
+.fighters-primary, .bombers-primary, .aircraft-primary
 {
     width: 15%;
     align: left;
@@ -16,7 +16,7 @@
     visibility: visible;
 }
 
-.fighters-secundary, .bombers-secundary
+.fighters-secundary, .bombers-secundary, .aircraft-secundary
 {
     background: #f6f6f6;
     border-left: 1px solid #B0BEC5;
