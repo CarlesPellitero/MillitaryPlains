@@ -1,4 +1,4 @@
-.fighters, .bombers, .aircraft, .twin
+.fighters, .bombers, .aircraft, .twin, .strike
 {
     width: 100%;
     align: center;
@@ -8,7 +8,7 @@
     background: #EEEEEE;
 }
 
-.fighters-primary, .bombers-primary, .aircraft-primary, .twin-primary
+.fighters-primary, .bombers-primary, .aircraft-primary, .twin-primary, .strike-primary
 {
     width: 15%;
     align: left;
@@ -16,7 +16,7 @@
     visibility: visible;
 }
 
-.fighters-secundary, .bombers-secundary, .aircraft-secundary, .twin-secundary
+.fighters-secundary, .bombers-secundary, .aircraft-secundary, .twin-secundary, .strike-secundary
 {
     background: #f6f6f6;
     border-left: 1px solid #B0BEC5;
@@ -29,4 +29,10 @@
 {
     width: 120px;
     height: 48px;
+}
+
+.all-tables
+{
+    padding-left: 10%;
+    padding-right: 10%;
 }
