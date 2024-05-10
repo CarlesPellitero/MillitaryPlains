@@ -37,3 +37,27 @@
     padding-left: 10%;
     padding-right: 10%;
 }
+
+.fighters-button
+{
+    float:right;
+}
+
+a
+{
+    text-decoration-skip-ink: none;
+    text-decoration: none;
+    color: #0645ad;
+    background: none;
+}
+
+a:not( [href] )
+{
+    cursor: pointer;
+}
+
+a:hover, a:focus
+{
+    color: orange;
+    text-decoration: underline;
+}

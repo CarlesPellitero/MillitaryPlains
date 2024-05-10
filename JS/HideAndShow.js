@@ -1,9 +1,12 @@
 function fightersFunction() {
   var x = document.getElementById("fighters-body");
+  var element = document.getElementById("fighters-span");
   if (x.style.display === "none") {
     x.style.display = "block";
+    element.innerHTML = "Collapse";
   } else {
     x.style.display = "none";
+    element.innerHTML = "Expand";
   }
 }
 
