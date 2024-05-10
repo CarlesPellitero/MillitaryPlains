@@ -1,5 +1,25 @@
-.aviones-imagen
-{
-    width: 120px;
-    height: 48px;
+body {
+    background-color: #E5E5E5;
+}
+
+.center {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+
+.center-text{
+    margin: auto;
+    width: 25%;
+    padding: 10px;
+}
+
+#tablaPaises {
+    width: 120%;
+    height: 200px;
+    border: 1px;
+}
+
+table, th, td {
+    border: 1px solid black;
 }
