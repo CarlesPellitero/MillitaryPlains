@@ -1,3 +1,30 @@
 body{
     background-color: rgba(229, 229, 229, 1);
+    padding-left: 10%;
+    padding-right: 10%;
 }
+
+.containerimg{
+    float: left;
+    background-color: rgba(217, 217, 217, 1);
+    padding-top: 5%;
+    padding-left: 6%;
+    border-radius: 4%;
+}
+
+.containertext{
+    float: right;
+    background-color: rgba(217, 217, 217, 1);
+    padding-top: 5%;
+    padding-left: 6%;
+    border-radius: 4%;
+}
+
+.containermenu{
+    padding-right: 20%;
+}
+
+img{
+    border-radius: 5%;
+}
+

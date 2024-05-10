@@ -1,34 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../CSS/pantalla3.css">
     <title>Document</title>
+
+    <style>
+        .containerimg {
+            height: 600px;
+            width: 600px;
+        }
+
+        .containertext {
+            height: 800px;
+            width: 600px;
+        }
+
+        .containermenu{
+            height: 30px;
+            width: 232px;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color:rgba(153, 163, 168, 1);
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+        .active {
+            background-color: #04AA6D;
+        }
+    </style>
 </head>
+
+
 <body>
     <h1>Military Air</h1>
     <br>
     <p>Aqui la barra de busqueda</p>
     <br>
-    <div style="float: left; padding-left: 25%;">
-        <h2 style="background:rgba(217, 217, 217, 1); 
-        font-weight:bold; 
-        padding-left:15px; 
-        padding-top: 5%; 
-        padding-right: 15%; 
-        padding-bottom: 50%;">                <img src="../IMG/USA/FIGHTERS/P-47 THUNDERBOLT/P-47D-22-RE.png" alt="Descripción de la imagen">
-<h2>
 
+    <div class="containerimg">
+        <div class="imagenes">
+            <img src="../IMG/PANTALLA3IMG/P26A-33.jpg" alt="Descripción de la imagen" width="500" height="370" ;>
+        </div>
     </div>
 
-    <div style="float: right; padding-right: 25%;">
-        <h2 style="background:rgba(217, 217, 217, 1); 
-        font-weight:bold; 
-        padding-left:15px; 
-        padding-top: 5%; 
-        padding-right: 15%; 
-        padding-bottom: 50%;">Aqui ira la informacion</h2>
+
+    <div class="containertext">
+        <div class="informacion">
+            <div class="containermenu">
+                <ul>
+                    <li><a class="active" href="#descriptiondata">Description</a></li>
+                    <li><a href="#technicaldata">Technical Info</a></li>
+                  </ul>
+            </div>
+
+
+        </div>
     </div>
+
 </body>
+
 </html>
