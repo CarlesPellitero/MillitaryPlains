@@ -12,10 +12,13 @@ function fightersFunction() {
 
 function twinFunction() {
   var x = document.getElementById("twin-body");
+  var element = document.getElementById("twin-span");
   if (x.style.display === "none") {
     x.style.display = "block";
+    element.innerHTML = "Collapse";
   } else {
     x.style.display = "none";
+    element.innerHTML = "Expand";
   }
 }
 
