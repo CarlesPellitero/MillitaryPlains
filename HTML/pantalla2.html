@@ -7,6 +7,7 @@
     <title>Military Air</title>
 </head>
 <body>
+    <script src="../JS/HideAndShow.js"></script>
     <h1>Military Air</h1>
     <br>
     <p>Aqui la barra de busqueda</p>
@@ -15,12 +16,15 @@
     <br>
     <div class="all-tables">
     <table class="fighters">
-        <tbody>
+        <thead>
             <tr>
                 <th colspan="2" align="center">
                     <h1 class="fighters-title">Fighters</h1>
+                    <button onclick="fightersFunction()">Try it</button>
                 </th>
             </tr>
+        </thead>
+        <tbody id="fighters-body">
             <tr>
                 <td class="fighters-primary" style="border-top: 1px solid #B0BEC5;">
                     P-26 Peashooter
@@ -251,12 +255,15 @@
     </table>
     <br>
     <table class="twin">
-        <tbody>
+        <thead>
             <tr>
                 <th colspan="2" align="center">
                     <h1 class="twin-title">Twin-Engine Fighters</h1>
+                    <button onclick="twinFunction()">Try it</button>
                 </th>
             </tr>
+        </thead>
+        <tbody id="twin-body">
             <tr>
                 <td class="twin-primary" style="border-top: 1px solid #B0BEC5;">
                     P-38 Lightning
@@ -315,12 +322,15 @@
     </table>
     <br>
     <table class="strike">
-        <tbody>
+        <thead>
             <tr>
                 <th colspan="2" align="center">
-                    <h1 class="twin-title">Strike Aircraft</h1>
+                    <h1 class="strike-title">Strike Aircraft</h1>
+                    <button onclick="strikeFunction()">Try it</button>
                 </th>
             </tr>
+        </thead>
+        <tbody id="strike-body">
             <tr>
                 <td class="strike-primary" style="border-top: 1px solid #B0BEC5;">
                     A-4
@@ -453,12 +463,15 @@
     </table>
     <br>
     <table class="bombers">
-        <tbody>
+        <thead>
             <tr>
                 <th colspan="2" align="center">
                     <h1 class="bombers-title">Bombers</h1>
+                    <button onclick="bombersFunction()">Try it</button>
                 </th>
             </tr>
+        </thead>
+        <tbody id="bombers-body">
             <tr>
                 <td class="bombers-primary" style="border-top: 1px solid #B0BEC5;">
                     Dive
@@ -545,12 +558,15 @@
     </table>
     <br>
     <table class="aircraft">
-        <tbody>
+        <thead>
             <tr>
                 <th colspan="2" align="center">
                     <h1 class="aircraft-title">Aircraft</h1>
+                    <button onclick="aircraftFunction()">Try it</button>
                 </th>
             </tr>
+        </thead>
+        <tbody id="aircraft-body">
             <tr>
                 <td class="aircraft-primary" style="border-top: 1px solid #B0BEC5;">
                     F-4
