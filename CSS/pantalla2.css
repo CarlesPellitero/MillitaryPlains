@@ -1,3 +1,7 @@
+body
+{
+    background-color: #F6F6F6;
+}
 .fighters, .bombers, .aircraft, .twin, .strike
 {
     width: 100%;
@@ -23,6 +27,7 @@
     padding-left: 7px;
     padding-right: 7px;
     visibility: visible;
+    width: 100%;
 }
 
 .aviones-imagen
@@ -35,4 +40,28 @@
 {
     padding-left: 10%;
     padding-right: 10%;
+}
+
+.fighters-button, .bombers-button, .aircraft-button, .twin-button, .strike-button
+{
+    float:right;
+}
+
+a
+{
+    text-decoration-skip-ink: none;
+    text-decoration: none;
+    color: #0645ad;
+    background: none;
+}
+
+a:not( [href] )
+{
+    cursor: pointer;
+}
+
+a:hover, a:focus
+{
+    color: orange;
+    text-decoration: underline;
 }
