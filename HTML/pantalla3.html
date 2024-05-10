@@ -19,8 +19,8 @@
         }
 
         .containermenu{
-            height: 30px;
-            width: 232px;
+            height: 46px;
+            width: 231.5px;
         }
 
         ul {
@@ -29,6 +29,8 @@
             padding: 0;
             overflow: hidden;
             background-color:rgba(153, 163, 168, 1);
+            border-top-right-radius: 20px;
+            border-top-left-radius: 20px;
         }
 
         li {
@@ -37,17 +39,17 @@
 
         li a {
             display: block;
-            color: white;
+            color: black;
             text-align: center;
             padding: 14px 16px;
             text-decoration: none;
         }
 
         li a:hover:not(.active) {
-            background-color: #111;
+            background-color: rgba(217, 217, 217, 1);
         }
         .active {
-            background-color: #04AA6D;
+            background-color: rgba(217, 217, 217, 1);
         }
     </style>
 </head>
@@ -70,12 +72,10 @@
         <div class="informacion">
             <div class="containermenu">
                 <ul>
-                    <li><a class="active" href="#descriptiondata">Description</a></li>
-                    <li><a href="#technicaldata">Technical Info</a></li>
+                    <li><a href="#descriptiondata" role="button">Description</a></li>
+                    <li><a href="#technicaldata" role="button">Technical Info</a></li>
                   </ul>
             </div>
-
-
         </div>
     </div>
 
