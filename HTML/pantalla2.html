@@ -4,16 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../CSS/pantalla2.css">
+    <link rel="icon" type="image/x-icon" href="../IMG/NOSOTROS/logo_circulo.ico">
     <title>Military Air</title>
+    <script src="../JS/HideAndShow.js"></script>
 </head>
 <body>
-    <script src="../JS/HideAndShow.js"></script>
     <h1>Military Air</h1>
     <br>
     <p>Aqui la barra de busqueda</p>
-    <br>
-    <h1>USA</h1>
-    <br>
+    <h1 style="text-align:center; font-size: 70px;"><img src="../IMG/USA/USA.png" style="height: 60px; width: 150px;">&nbsp;USA</h1>
     <div class="all-tables">
     <table class="fighters">
         <thead>
@@ -34,7 +33,7 @@
                     P-26 Peashooter
                 </td>
                 <td class="fighters-secundary" style="border-top: 1px solid #B0BEC5;">
-                    <img class="aviones-imagen" src="../IMG/USA/FIGHTERS/P-26 PEASHOOTER/P-26A-33.png">
+                    <a href="../HTML/pantalla3.html"><img class="aviones-imagen" src="../IMG/USA/FIGHTERS/P-26 PEASHOOTER/P-26A-33.png"></a>
                     &nbsp;
                     <img class="aviones-imagen" src="../IMG/USA/FIGHTERS/P-26 PEASHOOTER/P-26A-34.png">
                     &nbsp;
@@ -334,7 +333,11 @@
             <tr>
                 <th colspan="2" align="center">
                     <h1 class="strike-title">Strike Aircraft</h1>
-                    <button onclick="strikeFunction()">Try it</button>
+                    <span class="strike-button" role="button">
+                        <span>[</span>
+                        <a id="strike-span" onclick="strikeFunction()">Collapse</a>
+                        <span>]</span>
+                    </span>
                 </th>
             </tr>
         </thead>
@@ -475,7 +478,11 @@
             <tr>
                 <th colspan="2" align="center">
                     <h1 class="bombers-title">Bombers</h1>
-                    <button onclick="bombersFunction()">Try it</button>
+                    <span class="bombers-button" role="button">
+                        <span>[</span>
+                        <a id="bombers-span" onclick="bombersFunction()">Collapse</a>
+                        <span>]</span>
+                    </span>
                 </th>
             </tr>
         </thead>
@@ -570,7 +577,11 @@
             <tr>
                 <th colspan="2" align="center">
                     <h1 class="aircraft-title">Aircraft</h1>
-                    <button onclick="aircraftFunction()">Try it</button>
+                    <span class="aircraft-button" role="button">
+                        <span>[</span>
+                        <a id="aircraft-span" onclick="aircraftFunction()">Collapse</a>
+                        <span>]</span>
+                    </span>
                 </th>
             </tr>
         </thead>
@@ -825,6 +836,11 @@
             </tr>
         </tbody>
     </table>
+    </div>
+    <div align="center">
+        <p><a href="../HTML/pantalla4.html">About us</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="./pantalla5.html">Contact us</a></p>
     </div>
 </body>
 </html>
