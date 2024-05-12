@@ -3,27 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type=" text/css" href="../CSS/pantalla4.css" />
-    <title>Contact us</title>
-    <img src="../IMG/NOSOTROS/logo.png" alt="logo" width="120" height="120" 
-        style="border-radius:80%" >
-        <a href="../HTML/pantalla1.html"><h1>Military Air</h1><br></a> <!--D9D9D9 color fuente-->
-        <input class="BarraBusqueda" type="text" placeholder="Search planes...">
-        <img src="../IMG/NOSOTROS/Busqueda.png" alt="search" width="22" height="22">
-        <a href="javascript: history.go(-1)"> <img src="../IMG/NOSOTROS/Atras.png" alt="search" width="28" height="25"></a> 
-    </head>
+    <link rel="stylesheet" type=" text/css" href="../CSS/pantalla5.css" />
+    <title>Pruebas</title>
+</head>
 <body>
-    <section>
-        <h2 align="center">Contact us</h2>
-        <div>
-            <p>Para contactarnos podeis mandar un correo a: militaryair.contact@gmail.com <br>
-                Tambien teneis nuestro telefono: +34 XXX XX XX XX</p>
-                
-        </div>
-        <div align="center">
-            <a href="../HTML/pantalla4.html">About us</a>
-        </div>
-    </section>
+    <header>
+        <table class="Encabezado" align="center">        
+            <tr>
+                <td rowspan="3" colspan="3">
+                    <a href="../HTML/pantalla1.html"><img src="../IMG/NOSOTROS/logo_circulo.png" alt="logo" width="120" height="120"
+                        style="padding-top: 15px; padding-left: 15px;">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="../HTML/pantalla1.html"><h1 align="center" style="padding-right: 180px ;">Military Air</h1><br></a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="BarraBusqueda">
+                        <input type="text" placeholder="Search planes...">
+                    </div>
+                    <span class="buscar_boton" role="button">
+                        <a id="fighters-span" onclick="fightersFunction()">
+                            <img src="../IMG/NOSOTROS/Busqueda.png" alt="Buscar" width="23" height="23">
+                        </a>
+                    </span>
+                    <a href="javascript: history.go(-1)"> <img src="../IMG/NOSOTROS/Atras.png" alt="Atras" width="28" height="25" style="padding-left: 10px;"></a> 
+                </td>
+                <td>
+    
+                </td>
+            </tr>
+    </table>
+    </header>
+    <main>
+        <section>
+            <h2 align="center">Contact us</h2>
+            <div style = "padding-left: 150px;">
+                <p>Para contactarnos podeis mandar un correo a: militaryair.contact@gmail.com <br>
+                    Tambien teneis nuestro telefono: +34 XXX XX XX XX</p>
+                    
+            </div>
+            <div align="center">
+                <a href="../HTML/pantalla4.html">About us</a>
+            </div>
+        </section>
+    </main>
+
     <footer>
         <table class="PieDePaguina" align="center">
             <tr>
