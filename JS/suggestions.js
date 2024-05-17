@@ -36,8 +36,8 @@ function select(element){
     let selectUserData = element.textContent;
     inputSearch.value = selectUserData;
 
-    /* Arreglar el href no lo concatena bien */
-    searchLink.href = 'Avion${inputSearch.value}.html';
+    /* Arreglar el href no lo concatena bien Avion${inputSearch.value}.html*/
+    searchLink.href = '../HTML/pantalla2.html';
     searchContainer.classList.remove('active')
 
 }
