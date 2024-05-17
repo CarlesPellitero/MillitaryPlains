@@ -1,13 +1,14 @@
 /* Global Styles */
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #f0f0f0;
+    background-color: #E5E5E5;
     margin: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+    padding: 0;
 }
 
 /* Header Styles */
@@ -51,10 +52,13 @@ main {
     width: 90%;
     max-width: 1500px;
     text-align: center;
+    flex-grow: 1; /* Carles */
+    padding: 20px;
 }
 
+
 .countries-section {
-    background: #fff;
+    background: #d8dddf;
     padding: 30px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -87,7 +91,7 @@ main {
 
 .flag-menu img {
     width: 200px;
-    height: 80px;
+    height: 110px;
     margin-bottom: 10px;
 }
 
@@ -102,22 +106,36 @@ main {
 }
 
 /* Footer Styles */
-footer {
+.sectio-menu {
     margin-top: 30px;
     text-align: center;
 }
 
-footer p {
-    font-size: 1.2em;
+.sectio-menu p {
     color: #666;
 }
 
-footer a {
-    color: #007bff;
+.sectio-menu a {
+    color: black;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
-footer a:hover {
+.sectio-menu a:hover {
     color: #0056b3;
+}
+
+/*Carles*/
+
+footer {
+    background-color: #38393A;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: auto;
+}
+
+.icono_pie{
+    width: 70px; 
+    height: 60px;
 }

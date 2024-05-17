@@ -1,3 +1,8 @@
+html{
+    background-color: #E5E5E5;
+    font-family: 'Roboto', sans-serif;
+}
+
 .BarraBusqueda input[type=text] {
     float: left;
     padding: 5px;
@@ -19,15 +24,29 @@ a {
     color: black;
 }
 
+a:hover {
+    color: #0056b3;
+}
+
 .Encabezado{
     width: 100%;
     border-collapse: collapse;
 }
 
-.icono_pie{
-    width: 70px; 
-    height: 60px;
+.Encabezado h1{
+    font-size: 3.5em;
+    color: #333;
+    font-weight: 700;
+    margin: 0 auto;
 }
+
+section{
+    width: 1100px;
+    height: 300px;
+    padding-left: 200px;
+}
+
+/**/
 
 body {
     margin: 0;
@@ -37,18 +56,21 @@ body {
     min-height: 100vh; /* Establece el alto mínimo de la página al 100% del viewport */
     background-color: #E5E5E5;
 }
+footer {
+    background-color: #38393A;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: auto;
+}
 
 main {
     flex-grow: 1; /* Hace que el contenido principal ocupe todo el espacio disponible */
     padding: 20px;
 }
 
-footer {
-    background-color: #38393A;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    margin-top: auto; /* Fija el pie de página en la parte inferior */
-}
 
-/* Para ayudar */
+.icono_pie{
+    width: 70px; 
+    height: 60px;
+}
