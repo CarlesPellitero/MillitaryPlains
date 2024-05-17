@@ -1,25 +1,123 @@
+/* Global Styles */
 body {
-    background-color: #E5E5E5;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
 }
 
-.center {
-    margin: auto;
-    width: 60%;
-    padding: 10px;
+/* Header Styles */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+    width: 100%;
 }
 
-.center-text{
-    margin: auto;
-    width: 25%;
-    padding: 10px;
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
 
-#tablaPaises {
-    width: 120%;
-    height: 200px;
-    border: 1px;
+.logo {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100px;
+    height: auto;
 }
 
-table, th, td {
-    border: 1px solid black;
+header h1 {
+    font-size: 3.5em;
+    color: #333;
+    font-weight: 700;
+    margin: 0 auto;
+}
+
+header p {
+    font-size: 1.5em;
+    color: #666;
+    font-weight: 300;
+}
+
+/* Main Styles */
+main {
+    width: 90%;
+    max-width: 1500px;
+    text-align: center;
+}
+
+.countries-section {
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.countries-section h2 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+/* Flag Menu Styles */
+.flag-menu {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 30px;
+    justify-items: center;
+}
+
+.flag-menu a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.flag-menu img {
+    width: 200px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.flag-menu span {
+    font-size: 1.4em;
+    font-weight: 400;
+}
+
+.flag-menu a:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer Styles */
+footer {
+    margin-top: 30px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+footer a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #0056b3;
 }
