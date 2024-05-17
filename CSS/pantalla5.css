@@ -1,3 +1,8 @@
+html{
+    background-color: #E5E5E5;
+    font-family: 'Roboto', sans-serif;
+}
+
 .BarraBusqueda input[type=text] {
     float: left;
     padding: 5px;
@@ -24,6 +29,7 @@ a {
     border-collapse: collapse;
 }
 
+/*Pie*/
 .icono_pie{
     width: 70px; 
     height: 60px;
