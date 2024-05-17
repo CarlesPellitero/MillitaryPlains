@@ -3,31 +3,44 @@ html{
     font-family: 'Roboto', sans-serif;
 }
 
-.icono_pie{
-    width: 70px; 
-    height: 60px;
-}
-
-.BarraBusqueda{ 
- background-color: #99A3A8;
+.BarraBusqueda input[type=text] {
+    float: left;
+    padding: 5px;
+    padding-left: 10px;
+    margin-right: 5px;
+    margin-left: 15px;
+    font-size: 17px;
+    width: 900px;
+    height: 15px;
+    background-color: #99A3A8;
 }
 
 ::placeholder {
     color: black;
-  }
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.Encabezado{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.Encabezado h1{
+    font-size: 3.5em;
+    color: #333;
+    font-weight: 700;
+    margin: 0 auto;
+}
 
 section{
     width: 1100px;
     height: 300px;
     padding-left: 200px;
 }
-
-a 
-{
-    text-decoration: none;
-    color: black;
-}
-
 
 /**/
 

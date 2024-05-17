@@ -29,6 +29,19 @@ a {
     border-collapse: collapse;
 }
 
+.Encabezado h1{
+    font-size: 3.5em;
+    color: #333;
+    font-weight: 700;
+    margin: 0 auto;
+}
+
+section{
+    width: 1100px;
+    height: 300px;
+    padding-left: 200px;
+}
+
 /*Pie*/
 .icono_pie{
     width: 70px; 
