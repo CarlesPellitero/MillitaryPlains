@@ -14,11 +14,11 @@
         }
 
         .containertext {
-            height: 800px;
+            height: 670px;
             width: 600px;
         }
 
-        .containermenu{
+        .containermenu {
             height: 46px;
             width: 231.5px;
         }
@@ -28,7 +28,7 @@
             margin: 0;
             padding: 0;
             overflow: hidden;
-            background-color:rgba(153, 163, 168, 1);
+            background-color: rgba(153, 163, 168, 1);
             border-top-right-radius: 20px;
             border-top-left-radius: 20px;
         }
@@ -48,11 +48,35 @@
         li a:hover:not(.active) {
             background-color: rgba(217, 217, 217, 1);
         }
+
         .active {
             background-color: rgba(217, 217, 217, 1);
         }
     </style>
 </head>
+
+<script>
+    function myFunction1() {
+        document.getElementById("textdec").innerHTML = "The Boeing P-26 Peashooter was a plane both ahead of its time and quickly made obsolete. First flown in 1932, the P-26 is the one of the oldest planes in the game. It was one of the first all-metal monoplanes adopted into military service in 1933 (in comparison, the He 51 and Ki-10 entered service in 1935), making it one of the fastest fighters in the world at the time, but it suffered from poor flight performance and dangerous landing characteristics. However, as newer fighters entered service around the world, the P-26s advantages diminished and its disadvantages became vulnerabilities. By the time of World War Two, the P-26 was hopelessly obsolete.";
+        
+    }
+
+    function myFunction2() {
+        document.getElementById("textdec").innerHTML = "PRUEBA DOS";
+    }
+
+    function changeImage1() {
+        document.getElementById("imageplane").src = "../IMG/PANTALLA3IMG/P26A-33.jpg";
+    }
+    function changeImage2() {
+        document.getElementById("imageplane").src = "../IMG/PANTALLA3IMG/P26-SECOND.jpg";
+    }
+    function changeImage3() {
+        document.getElementById("imageplane").src = "../IMG/PANTALLA3IMG/P26-THIRD.jpg";
+    }
+
+</script>
+
 
 
 <body>
@@ -63,8 +87,11 @@
 
     <div class="containerimg">
         <div class="imagenes">
-            <img src="../IMG/PANTALLA3IMG/P26A-33.jpg" alt="Descripción de la imagen" width="500" height="370" ;>
+            <img src="../IMG/PANTALLA3IMG/P26A-33.jpg" alt="Descripción de la imagen" width="500" height="370" id="imageplane";>
         </div>
+        <button class="button button1" onclick="changeImage1()"></button>
+        <button class="button button2" onclick="changeImage2()"></button>
+        <button class="button button3" onclick="changeImage3()"></button>
     </div>
 
 
@@ -72,11 +99,14 @@
         <div class="informacion">
             <div class="containermenu">
                 <ul>
-                    <li><a href="#descriptiondata" role="button">Description</a></li>
-                    <li><a href="#technicaldata" role="button">Technical Info</a></li>
-                  </ul>
+                    <li><a href="#descriptiondata" role="button" id="demo" onclick="myFunction1()">Description</a></li>
+                    <li><a href="#technicaldata" role="button" id="demo" onclick="myFunction2()">Technical Info</a></li>
+                </ul>
             </div>
+
+            <p id=textdec>The Boeing P-26 Peashooter was a plane both ahead of its time and quickly made obsolete. First flown in 1932, the P-26 is the one of the oldest planes in the game. It was one of the first all-metal monoplanes adopted into military service in 1933 (in comparison, the He 51 and Ki-10 entered service in 1935), making it one of the fastest fighters in the world at the time, but it suffered from poor flight performance and dangerous landing characteristics. However, as newer fighters entered service around the world, the P-26s advantages diminished and its disadvantages became vulnerabilities. By the time of World War Two, the P-26 was hopelessly obsolete.</p>
         </div>
+
     </div>
 
 </body>
