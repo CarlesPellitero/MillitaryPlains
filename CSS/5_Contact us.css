@@ -28,18 +28,6 @@ a:hover {
     color: #0056b3;
 }
 
-.Encabezado{
-    width: 100%;
-    border-collapse: collapse;
-}
-
-.Encabezado h1{
-    font-size: 3.5em;
-    color: #333;
-    font-weight: 700;
-    margin: 0 auto;
-}
-
 .texto{
     padding-left: 250px;
     width: 1100px;
@@ -51,13 +39,12 @@ body {
     padding: 0;
     display: flex;
     flex-direction: column;
-    min-height: 100vh; /* Establece el alto mínimo de la página al 100% del viewport */
+    min-height: 100vh; 
     background-color: #E5E5E5;
 }
 
 main {
-    flex-grow: 1; /* Hace que el contenido principal ocupe todo el espacio disponible */
-    padding: 20px;
+    flex-grow: 1; 
 }
 
 footer {
@@ -65,7 +52,7 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
-    margin-top: auto; /* Fija el pie de página en la parte inferior */
+    margin-top: auto; 
 }
 
 .icono_pie{
@@ -82,6 +69,8 @@ footer {
 
 .container {
     max-width: 1000px;
+    padding-left: 265px;
+    padding-top: 19px;
 }
 
 ::placeholder {
@@ -93,7 +82,7 @@ footer {
 }
 
 .search-input-box {
-    width: 100%;
+    width: 136%;
     background-color: #99A3A8;
     border-radius: 3px;
     position: relative;
@@ -155,4 +144,42 @@ footer {
     padding: 8px 12px;
     border-radius: 5px;
     display: none;
+}
+
+
+/*PRUEBAS*/
+header {
+    text-align: center;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    padding-top: 50px;
+    transform: translateY(-50%);
+    width: 100px;
+    height: auto;
+}
+
+header h1 {
+    font-size: 3.5em;
+    color: #333;
+    font-weight: 700;
+    margin: 0 auto;
+}
+
+header p {
+    font-size: 1.5em;
+    color: #666;
+    font-weight: 300;
 }

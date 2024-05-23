@@ -29,6 +29,7 @@ header {
     position: absolute;
     left: 20px;
     top: 50%;
+    padding-top: 50px;
     transform: translateY(-50%);
     width: 100px;
     height: auto;
@@ -59,10 +60,9 @@ main {
 
 .countries-section {
     background: #d8dddf;
-    padding: 30px;
+    padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-top: 20px;
 }
 
 .countries-section h2 {
@@ -138,4 +138,91 @@ footer {
 .icono_pie{
     width: 70px; 
     height: 60px;
+}
+
+/* Para hacer busqueda */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1000px;
+    padding-left: 265px;
+    padding-top: 19px;
+}
+
+::placeholder {
+    color: black;
+}
+
+.container input{
+    background-color: #99A3A8;
+}
+
+.search-input-box {
+    width: 136%;
+    background-color: #99A3A8;
+    border-radius: 3px;
+    position: relative;
+    color: black;
+    box-shadow: 0 1px 5px 3px rgba(0, 0, 0, 0.12);
+}
+
+.search-input-box input {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    height: 50px;
+    padding: 0 60px 0 20px;
+    font-size: 18px;
+}
+
+.icon {
+    position: absolute;
+    top: 15px;
+    right: 45px;
+    font-size: 22px; 
+    cursor: pointer;
+    color: black;
+}
+
+.icon2 {
+    position: absolute;
+    top: 15px;
+    right: 5px;
+    font-size: 22px; 
+    cursor: pointer;
+    color: black;
+}
+
+/* Contenerdor de sugerencias */
+.container-suggestions {
+    max-height: 280px;
+    opacity: 0;
+    pointer-events: none;
+    padding: 0;
+    overflow-y: auto;
+}
+
+.search-input-box.active .container-suggestions {
+    opacity: 1;
+    pointer-events: auto;
+    padding: 10px 8px;
+}
+
+.search-input-box.active .container-suggestions li {
+    display: block;
+}
+
+
+.container-suggestions li {
+    list-style: none;
+    width: 100%;
+    padding: 8px 12px;
+    border-radius: 5px;
+    display: none;
+    text-align: left;
 }
