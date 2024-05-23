@@ -40,20 +40,18 @@ a:hover {
     margin: 0 auto;
 }
 
-section{
+.texto{
+    padding-left: 250px;
     width: 1100px;
-    height: 300px;
-    padding-left: 200px;
 }
 
-/**/
-
+/*Pie*/
 body {
     margin: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
-    min-height: 100vh; /* Establece el alto mínimo de la página al 100% del viewport */
+    min-height: 100vh; 
     background-color: #E5E5E5;
 }
 footer {
@@ -65,7 +63,7 @@ footer {
 }
 
 main {
-    flex-grow: 1; /* Hace que el contenido principal ocupe todo el espacio disponible */
+    flex-grow: 1;
     padding: 20px;
 }
 

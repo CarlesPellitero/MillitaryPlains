@@ -40,18 +40,12 @@ a:hover {
     margin: 0 auto;
 }
 
-section{
+.texto{
+    padding-left: 250px;
     width: 1100px;
-    height: 300px;
-    padding-left: 200px;
 }
 
 /*Pie*/
-.icono_pie{
-    width: 70px; 
-    height: 60px;
-}
-
 body {
     margin: 0;
     padding: 0;
@@ -74,4 +68,91 @@ footer {
     margin-top: auto; /* Fija el pie de página en la parte inferior */
 }
 
-/* Para ayudar */
+.icono_pie{
+    width: 70px; 
+    height: 60px;
+}
+
+/* Para hacer busqueda */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1000px;
+}
+
+::placeholder {
+    color: black;
+}
+
+.container input{
+    background-color: #99A3A8;
+}
+
+.search-input-box {
+    width: 100%;
+    background-color: #99A3A8;
+    border-radius: 3px;
+    position: relative;
+    color: black;
+    box-shadow: 0 1px 5px 3px rgba(0, 0, 0, 0.12);
+}
+
+.search-input-box input {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    height: 50px;
+    padding: 0 60px 0 20px;
+    font-size: 18px;
+}
+
+.icon {
+    position: absolute;
+    top: 15px;
+    right: 45px;
+    font-size: 22px; 
+    cursor: pointer;
+    color: black;
+}
+
+.icon2 {
+    position: absolute;
+    top: 15px;
+    right: 5px;
+    font-size: 22px; 
+    cursor: pointer;
+    color: black;
+}
+
+/* Contenerdor de sugerencias */
+.container-suggestions {
+    max-height: 280px;
+    opacity: 0;
+    pointer-events: none;
+    padding: 0;
+    overflow-y: auto;
+}
+
+.search-input-box.active .container-suggestions {
+    opacity: 1;
+    pointer-events: auto;
+    padding: 10px 8px;
+}
+
+.search-input-box.active .container-suggestions li {
+    display: block;
+}
+
+
+.container-suggestions li {
+    list-style: none;
+    width: 100%;
+    padding: 8px 12px;
+    border-radius: 5px;
+    display: none;
+}

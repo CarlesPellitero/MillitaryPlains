@@ -2,7 +2,7 @@ const searchContainer = document.querySelector('.search-input-box');
 const inputSearch = searchContainer.querySelector('input');
 const boxSuggestions = document.querySelector('.container-suggestions');
 
-const searchLink = document.querySelector('a');
+const searchLink = document.querySelector('.search_button');
 
 inputSearch.onkeyup = (e) =>{
     let userData = e.target.value;
@@ -36,10 +36,11 @@ function select(element){
     let selectUserData = element.textContent;
     inputSearch.value = selectUserData;
 
-    /* Arreglar el href no lo concatena bien Avion${inputSearch.value}.html*/
-    searchLink.href = '../HTML/pantalla2.html';
-    searchContainer.classList.remove('active')
-
+    if (inputSearch.value == "P-26A-34"){
+        /* Cambair el href  "../HTML/3_${inputSearch.value}.html Automatizarlo pero solo usaremos uno de ejemplo*/
+        searchLink.href = '../HTML/3_P-26A-33.html';
+        searchContainer.classList.remove('active') 
+    }
 }
 
 
