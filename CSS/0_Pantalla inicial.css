@@ -23,13 +23,15 @@ header {
     align-items: center;
     justify-content: center;
     position: relative;
+    padding-bottom: 20px;
+
 }
 
 .logo {
     position: absolute;
     left: 20px;
     top: 50%;
-    padding-top: 50px;
+    padding-top: 48px;
     transform: translateY(-50%);
     width: 100px;
     height: auto;
@@ -53,7 +55,7 @@ main {
     width: 90%;
     max-width: 1500px;
     text-align: center;
-    flex-grow: 1; /* Carles */
+    flex-grow: 1;
     padding: 20px;
 }
 
