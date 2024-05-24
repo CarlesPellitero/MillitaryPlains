@@ -30,6 +30,7 @@ a:hover {
 
 .texto{
     padding-left: 250px;
+    padding-top: 10px;
     width: 1100px;
 }
 
@@ -43,17 +44,18 @@ body {
     background-color: #E5E5E5;
 }
 
-main {
-    flex-grow: 1; 
-}
-
 footer {
     background-color: #38393A;
     color: white;
     text-align: center;
     padding: 10px;
-    margin-top: auto; 
+    margin-top: auto;
 }
+
+main {
+    flex-grow: 1;
+}
+
 
 .icono_pie{
     width: 70px; 
@@ -146,8 +148,7 @@ footer {
     display: none;
 }
 
-
-/*PRUEBAS*/
+/*Header*/
 header {
     text-align: center;
     margin-bottom: 30px;
@@ -183,3 +184,9 @@ header p {
     color: #666;
     font-weight: 300;
 }
+
+/**/
+section h2, .imgIglesia, .contact{
+    text-align: center;
+}
+

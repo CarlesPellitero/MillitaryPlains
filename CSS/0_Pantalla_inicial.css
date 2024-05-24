@@ -109,6 +109,7 @@ main {
 
 /* Section Menu Styles */
 .sectio-menu {
+    align:center;
     margin-top: 30px;
     text-align: center;
 }
@@ -227,4 +228,8 @@ footer {
     border-radius: 5px;
     display: none;
     text-align: left;
+}
+
+.PieDePaguina {
+    align: center;
 }

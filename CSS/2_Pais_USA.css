@@ -1,3 +1,78 @@
+body
+{
+    background-color: #E5E5E5;
+}
+.fighters, .bombers, .aircraft, .twin, .strike
+{
+    width: 100%;
+    align: center;
+    cellspacing: 0;
+    cellpadding: 3;
+    border: 1px solid #B0BEC5;
+    background: #EEEEEE;
+}
+
+.fighters-primary, .bombers-primary, .aircraft-primary, .twin-primary, .strike-primary
+{
+    width: 15%;
+    align: left;
+    background: #DBE0E2;
+    visibility: visible;
+}
+
+.fighters-secundary, .bombers-secundary, .aircraft-secundary, .twin-secundary, .strike-secundary
+{
+    background: #f6f6f6;
+    border-left: 1px solid #B0BEC5;
+    padding-left: 7px;
+    padding-right: 7px;
+    visibility: visible;
+    width: 100%;
+}
+
+.aviones-imagen
+{
+    transition: transform .2s;
+    width: 120px;
+    height: 48px;
+}
+
+.aviones-imagen:hover
+{
+    transform: scale(1.2);
+}
+
+.all-tables
+{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.fighters-button, .bombers-button, .aircraft-button, .twin-button, .strike-button
+{
+    float:right;
+}
+
+a
+{
+    text-decoration-skip-ink: none;
+    text-decoration: none;
+    color: #0645ad;
+    background: none;
+}
+
+a:not( [href] )
+{
+    cursor: pointer;
+}
+
+a:hover, a:focus
+{
+    color: orange;
+    text-decoration: underline;
+}
+
+/*COSITAS*/
 html{
     background-color: #E5E5E5;
     font-family: 'Roboto', sans-serif;
@@ -19,19 +94,23 @@ html{
     color: black;
 }
 
-a {
+.minimenu{
+    padding: 15px;
+    padding-bottom: 25px;
+}
+
+.minimenu a {
     text-decoration: none;
     color: black;
 }
 
-a:hover {
+.minimenu a:hover {
     color: #0056b3;
 }
 
-.texto{
-    padding-left: 250px;
-    padding-top: 10px;
-    width: 1100px;
+header a:hover{
+    text-decoration: none;
+    color: black;
 }
 
 /*Pie*/
