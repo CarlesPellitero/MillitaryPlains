@@ -50,32 +50,32 @@ h2 {
 .containerimg {
     float: left;
     background-color: rgba(217, 217, 217, 1);
-    padding-top: 5%;
-    padding-left: 6%;
+    padding-left: 2.5%;
+    padding-top: 2.5%;
     border-radius: 4%;
     margin-left: 5%;
+    margin-top: 5%;
 }
 
 .containertext {
     float: right;
     background-color: rgba(217, 217, 217, 1);
-    padding-top: 0%;
     border-radius: 4%;
     margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 a{
     font-family: 'Roboto', sans-serif;
-    font-size: 14.8px;
-
+    font-size: 20px;
+    text-align: center;
 }
 
 .containermenu {
     background-color: rgba(229, 229, 229, 1);
-    padding-right: 61.5%;
     border-top-right-radius: 20px;
-    margin-right: 5%;
-    padding-top: 5%;
+    padding-right: 51.6%;
 }
 
 .desctextpart{
@@ -133,16 +133,13 @@ button:active {
 }
 
 .containertext {
-    height: 670px;
+    height: 600px;
     width: 600px;
 }
 
-.containermenu {
-    height: 46px;
-    width: 231.5px;
-}
 
-ul {
+
+.containermenu ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -152,11 +149,11 @@ ul {
     border-top-left-radius: 20px;
 }
 
-li {
+.containermenu li {
     float: left;
 }
 
-li a {
+.containermenu li a {
     display: block;
     color: black;
     text-align: center;
@@ -164,7 +161,7 @@ li a {
     text-decoration: none;
 }
 
-li a:hover:not(.active) {
+.containermenu li a:hover:not(.active) {
     background-color: rgba(217, 217, 217, 1);
 }
 
@@ -270,6 +267,7 @@ footer {
     color: black;
 }
 
+
 /* Contenerdor de sugerencias */
 .container-suggestions {
     max-height: 280px;
@@ -301,7 +299,7 @@ footer {
 
 .PieDePaguina {
     align: center;
-}
+}*/
 
 
 /* Header Styles*/
@@ -316,7 +314,7 @@ header {
     align-items: center;
     justify-content: center;
     position: relative;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 
 }
 
@@ -341,4 +339,4 @@ header p {
     font-size: 1.5em;
     color: #666;
     font-weight: 300;
-} 
+}
