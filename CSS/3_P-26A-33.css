@@ -4,7 +4,48 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
-    min-height: 100vh; 
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.table-container {
+    width: 500px;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.table {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-top: 1px solid #ddd;
+}
+
+.row:first-child {
+    border-top: none;
+}
+
+.cell {
+    width: 50%;
+}
+
+.cell strong {
+    display: block;
+}
+
+.cell p {
+    margin: 0;
 }
 
 .containerimg {
@@ -13,7 +54,7 @@ body {
     padding-top: 5%;
     padding-left: 6%;
     border-radius: 4%;
-    margin-left: 5%;
+    margin-left: 8%;
 }
 
 .containertext {
@@ -21,7 +62,13 @@ body {
     background-color: rgba(217, 217, 217, 1);
     padding-top: 0%;
     border-radius: 4%;
-    margin-right: 5%;
+    margin-right: 8%;
+}
+
+a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14.8px;
+
 }
 
 .containermenu {
@@ -31,13 +78,24 @@ body {
     margin-right: 5%;
 }
 
+.desctextpart{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10%;
+    text-align: justify;
+    font-size: 19px;
+    font-family: 'Roboto', sans-serif;
+}
+
 
 img {
     border-radius: 5%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
 }
 
 .button {
-    background-color: black;
+    background-color: #666;
     /* Green */
     border: none;
     color: white;
@@ -49,9 +107,22 @@ img {
     cursor: pointer;
     border-radius: 100px;
     margin-top: 70px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
 }
 
-.button1{
+.button:hover {
+
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+button:active {
+    background-color:  rgba(217, 217, 217, 1);
+    transform: translateY(4px);
+
+}
+
+.button1 {
 
     margin-left: 200px;
 }
@@ -97,7 +168,11 @@ li a:hover:not(.active) {
     background-color: rgba(217, 217, 217, 1);
 }
 
-.active {
+.bdec:focus{
+    background-color: rgba(217, 217, 217, 1);
+}
+
+.tdata:focus{
     background-color: rgba(217, 217, 217, 1);
 }
 
@@ -131,7 +206,7 @@ footer {
     margin-top: auto;
 }
 
-.icono_pie{
-    width: 70px; 
+.icono_pie {
+    width: 70px;
     height: 60px;
 }
