@@ -262,3 +262,12 @@ header p {
     color: #666;
     font-weight: 300;
 }
+
+/**/
+.thTitle {
+    text-align: center;
+}
+
+p {
+    font-size: 34px;
+}
