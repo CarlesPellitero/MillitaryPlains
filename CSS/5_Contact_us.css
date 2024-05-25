@@ -1,78 +1,3 @@
-body
-{
-    background-color: #E5E5E5;
-}
-.fighters, .bombers, .aircraft, .twin, .strike
-{
-    width: 100%;
-    align: center;
-    cellspacing: 0;
-    cellpadding: 3;
-    border: 1px solid #B0BEC5;
-    background: #EEEEEE;
-}
-
-.fighters-primary, .bombers-primary, .aircraft-primary, .twin-primary, .strike-primary
-{
-    width: 15%;
-    align: left;
-    background: #DBE0E2;
-    visibility: visible;
-}
-
-.fighters-secundary, .bombers-secundary, .aircraft-secundary, .twin-secundary, .strike-secundary
-{
-    background: #f6f6f6;
-    border-left: 1px solid #B0BEC5;
-    padding-left: 7px;
-    padding-right: 7px;
-    visibility: visible;
-    width: 100%;
-}
-
-.aviones-imagen
-{
-    transition: transform .2s;
-    width: 120px;
-    height: 48px;
-}
-
-.aviones-imagen:hover
-{
-    transform: scale(1.2);
-}
-
-.all-tables
-{
-    padding-left: 10%;
-    padding-right: 10%;
-}
-
-.fighters-button, .bombers-button, .aircraft-button, .twin-button, .strike-button
-{
-    float:right;
-}
-
-a
-{
-    text-decoration-skip-ink: none;
-    text-decoration: none;
-    color: #0645ad;
-    background: none;
-}
-
-a:not( [href] )
-{
-    cursor: pointer;
-}
-
-a:hover, a:focus
-{
-    color: orange;
-    text-decoration: underline;
-}
-
-/*COSITAS*/
 html{
     background-color: #E5E5E5;
     font-family: 'Roboto', sans-serif;
@@ -94,23 +19,18 @@ html{
     color: black;
 }
 
-.minimenu{
-    padding: 15px;
-    padding-bottom: 25px;
-}
-
-.minimenu a {
+a {
     text-decoration: none;
     color: black;
 }
 
-.minimenu a:hover {
+a:hover {
     color: #0056b3;
 }
 
-header a:hover{
-    text-decoration: none;
-    color: black;
+.texto{
+    padding-left: 250px;
+    width: 1100px;
 }
 
 /*Pie*/
@@ -122,18 +42,18 @@ body {
     min-height: 100vh; 
     background-color: #E5E5E5;
 }
+
+main {
+    flex-grow: 1; 
+}
+
 footer {
     background-color: #38393A;
     color: white;
     text-align: center;
     padding: 10px;
-    margin-top: auto;
+    margin-top: auto; 
 }
-
-main {
-    flex-grow: 1;
-}
-
 
 .icono_pie{
     width: 70px; 
@@ -224,10 +144,10 @@ main {
     padding: 8px 12px;
     border-radius: 5px;
     display: none;
-    text-align: left;
 }
 
-/*Header*/
+
+/*PRUEBAS*/
 header {
     text-align: center;
     margin-bottom: 30px;
@@ -262,4 +182,13 @@ header p {
     font-size: 1.5em;
     color: #666;
     font-weight: 300;
+}
+
+.titleH2, .tableIn {
+    text-align: center;
+}
+
+.about {
+    padding-top: 325px;
+    text-align:center;
 }

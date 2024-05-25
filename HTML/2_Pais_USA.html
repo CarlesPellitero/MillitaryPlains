@@ -1,0 +1,902 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/2_Pais_USA.css">
+    <link rel="icon" type="image/x-icon" href="../IMG/NOSOTROS/logo_circulo.ico">
+    <script src="../JS/HideAndShow.js"></script>
+
+    <script 
+        src="https://kit.fontawesome.com/81581fb069.js">
+        crossorigin="anonymous"
+    </script>
+    <title>Military Air</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <a href="../HTML/0_Pantalla inicial.html">
+                <img src="../IMG/NOSOTROS/logo_circulo.png" alt="Company Logo" class="logo">
+            </a>
+            <a href="../HTML/0_Pantalla inicial.html"><h1>Military Air</h1><br></a>
+        </div>
+        <div class="container">
+            <div class="search-input-box active">
+                <input type="text" placeholder="Search planes..."/>
+                <a href="" class="search_button">
+                    <i class="fa-solid fa-magnifying-glass icon"> </i> 
+                </a>
+                <a href="javascript: history.go(-1)">
+                    <i class="fa fa-undo icon2"></i>
+                </a>
+                <ul class="container-suggestions">
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section>
+            <h1 style="text-align:center; font-size: 70px;"><img src="../IMG/USA/USA.png"
+                    style="height: 60px; width: 150px;">&nbsp;USA</h1>
+            <div class="all-tables">
+                <table class="fighters">
+                    <thead>
+                        <tr>
+                            <th colspan="2" align="center">
+                                <h1 class="fighters-title">Fighters</h1>
+                                <span class="fighters-button" role="button">
+                                    <span>[</span>
+                                    <a id="fighters-span" onclick="fightersFunction()">Collapse</a>
+                                    <span>]</span>
+                                </span>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody id="fighters-body">
+                        <tr>
+                            <td class="fighters-primary" style="border-top: 1px solid #B0BEC5;">
+                                P-26 Peashooter
+                            </td>
+                            <td class="fighters-secundary" style="border-top: 1px solid #B0BEC5;">
+                                <a href="../HTML/3_P-26A-33.html"><img class="aviones-imagen"
+                                        src="../IMG/USA/FIGHTERS/P-26 PEASHOOTER/P-26A-33.png"></a>
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/FIGHTERS/P-26 PEASHOOTER/P-26A-34.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/FIGHTERS/P-26 PEASHOOTER/P-26A-34 M2.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/FIGHTERS/P-26 PEASHOOTER/P-26B-35.png">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="fighters-primary">
+                                P-36 Hawk
+                            </td>
+                            <td class="fighters-secundary">
+                                <img class="aviones-imagen" src="../IMG/USA/FIGHTERS/P-36 HAWK/P-36A.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/FIGHTERS/P-36 HAWK/RASMUSSEN'S P-36A.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/FIGHTERS/P-36 HAWK/P-36C.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/FIGHTERS/P-36 HAWK/OP-36C.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/FIGHTERS/P-36 HAWK/P-36G.png">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="fighters-primary">
+                                P-39 Airacobra
+                            </td>
+                            <td class="fighters-secundary">
+                                <img class="aviones-imagen" src="../IMG/USA/FIGHTERS/P-39 AIRACOBRA/P-400.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/FIGHTERS/P-39 AIRACOBRA/P-39N-0.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/FIGHTERS/P-39 AIRACOBRA/P-39Q-5.png">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="fighters-primary">
+                                P-40
+                            </td>
+                            <td class="fighters-secundary">
+                                <img class="aviones-imagen" src="../IMG/USA/FIGHTERS/P-40/P-40C.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/FIGHTERS/P-40/P-40E-1.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/FIGHTERS/P-40/P-40E-1 TD.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/FIGHTERS/P-40/P-40F-10.png">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="fighters-primary">
+                                P-43 Lancer
+                            </td>
+                            <td class="fighters-secundary">
+                                <img class="aviones-imagen" src="../IMG/USA/FIGHTERS/P-43 LANCER/P-43A-1.png">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="fighters-primary">
+                                P-47 Thunderbolt
+                            </td>
+                            <td class="fighters-secundary">
+                                <img class="aviones-imagen" src="../IMG/USA/FIGHTERS/P-47 THUNDERBOLT/P-47D-22-RE.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/FIGHTERS/P-47 THUNDERBOLT/P-47D-25.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/FIGHTERS/P-47 THUNDERBOLT/P-47D-28.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/FIGHTERS/P-47 THUNDERBOLT/P-47M-1-RE.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/FIGHTERS/P-47 THUNDERBOLT/P-47M-1-RE-L.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/FIGHTERS/P-47 THUNDERBOLT/P-47N-15.png">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="fighters-primary">
+                                P-51 Mustang
+                            </td>
+                            <td class="fighters-secundary">
+                                <img class="aviones-imagen" src="../IMG/USA/FIGHTERS/P-51 MUSTANG/P-51.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/FIGHTERS/P-51 MUSTANG/P-51A.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/FIGHTERS/P-51 MUSTANG/P-51C-10.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/FIGHTERS/P-51 MUSTANG/P-51D-5.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/FIGHTERS/P-51 MUSTANG/P-51D-10.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/FIGHTERS/P-51 MUSTANG/P-51D-20-NA.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/FIGHTERS/P-51 MUSTANG/P-51D-30.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/FIGHTERS/P-51 MUSTANG/P-51H-5-NA.png">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="fighters-primary">
+                                P-63 Kingcobra
+                            </td>
+                            <td class="fighters-secundary">
+                                <img class="aviones-imagen" src="../IMG/USA/FIGHTERS/P-63 KINGCOBRA/P-63A-5.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/FIGHTERS/P-63 KINGCOBRA/P-63A-10.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/FIGHTERS/P-63 KINGCOBRA/P-63C-5.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/FIGHTERS/P-63 KINGCOBRA/KINGCOBRA.png">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="fighters-primary">
+                                Prototypes
+                            </td>
+                            <td class="fighters-secundary">
+                                <img class="aviones-imagen" src="../IMG/USA/FIGHTERS/PROTOTYPES/XP-55.png">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="fighters-primary">
+                                F2A Buffalo
+                            </td>
+                            <td class="fighters-secundary">
+                                <img class="aviones-imagen" src="../IMG/USA/FIGHTERS/F2A BUFFALO/F2A-1.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/FIGHTERS/F2A BUFFALO/THACH'S F2A-1.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/FIGHTERS/F2A BUFFALO/F2A-3.png">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="fighters-primary">
+                                BF2C
+                            </td>
+                            <td class="fighters-secundary">
+                                <img class="aviones-imagen" src="../IMG/USA/FIGHTERS/BF2C/BF2C-1.png">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="fighters-primary">
+                                F3F
+                            </td>
+                            <td class="fighters-secundary">
+                                <img class="aviones-imagen" src="../IMG/USA/FIGHTERS/F3F/F3F-2.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/FIGHTERS/F3F/GALER'S F3F-2.png">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="fighters-primary">
+                                F4F Wildcat
+                            </td>
+                            <td class="fighters-secundary">
+                                <img class="aviones-imagen" src="../IMG/USA/FIGHTERS/F4F WILDCAT/F4F-3.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/FIGHTERS/F4F WILDCAT/F4F-4.png">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="fighters-primary">
+                                F4U Corsair
+                            </td>
+                            <td class="fighters-secundary">
+                                <img class="aviones-imagen" src="../IMG/USA/FIGHTERS/F4U CORSAIR/F4U-1A.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/FIGHTERS/F4U CORSAIR/F4U-1A (USMC).png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/FIGHTERS/F4U CORSAIR/F4U-1D.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/FIGHTERS/F4U CORSAIR/F4U-1C.PNG">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/FIGHTERS/F4U CORSAIR/F4U-4.PNG">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/FIGHTERS/F4U CORSAIR/F4U-4B.PNG">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/FIGHTERS/F4U CORSAIR/F4U-4B VMF-214.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/FIGHTERS/F4U CORSAIR/F2G-1.png">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="fighters-primary">
+                                F6F Hellcat
+                            </td>
+                            <td class="fighters-secundary">
+                                <img class="aviones-imagen" src="../IMG/USA/FIGHTERS/F6F HELLCAT/F6F-5.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/FIGHTERS/F6F HELLCAT/F6F-5N.png">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="fighters-primary">
+                                F8F Bearcat
+                            </td>
+                            <td class="fighters-secundary">
+                                <img class="aviones-imagen" src="../IMG/USA/FIGHTERS/F8F BEARCAT/F8F-1.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/FIGHTERS/F8F BEARCAT/F8F-1B.png">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="fighters-primary">
+                                Others
+                            </td>
+                            <td class="fighters-secundary">
+                                <img class="aviones-imagen" src="../IMG/USA/FIGHTERS/OTHERS/KI-43-II.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/FIGHTERS/OTHERS/KI-61-IB.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/FIGHTERS/OTHERS/A6M2.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/FIGHTERS/OTHERS/BF 109 F-4.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/FIGHTERS/OTHERS/FW 190 A-8.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/FIGHTERS/OTHERS/SPITFIRE LF MK IXC.png">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <br>
+                <table class="twin">
+                    <thead>
+                        <tr>
+                            <th colspan="2" align="center">
+                                <h1 class="twin-title">Twin-Engine Fighters</h1>
+                                <span class="twin-button" role="button">
+                                    <span>[</span>
+                                    <a id="twin-span" onclick="twinFunction()">Collapse</a>
+                                    <span>]</span>
+                                </span>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody id="twin-body">
+                        <tr>
+                            <td class="twin-primary" style="border-top: 1px solid #B0BEC5;">
+                                P-38 Lightning
+                            </td>
+                            <td class="twin-secundary" style="border-top: 1px solid #B0BEC5;">
+                                <img class="aviones-imagen" src="../IMG/USA/TWIN-ENGINE/P-38 LIGHTNING/P-38E.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/TWIN-ENGINE/P-38 LIGHTNING/XP-38G.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/TWIN-ENGINE/P-38 LIGHTNING/YP-38.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/TWIN-ENGINE/P-38 LIGHTNING/P-38G-1.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/TWIN-ENGINE/P-38 LIGHTNING/P-38J-15.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/TWIN-ENGINE/P-38 LIGHTNING/P-38L-5-LO.png">
+                                &nbsp;
+                                <img class="aviones-imagen"
+                                    src="../IMG/USA/TWIN-ENGINE/P-38 LIGHTNING/BONG'S P-38J-15.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/TWIN-ENGINE/P-38 LIGHTNING/P-38K.png">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="twin-primary">
+                                F7F
+                            </td>
+                            <td class="twin-secundary">
+                                <img class="aviones-imagen" src="../IMG/USA/TWIN-ENGINE/F7F/F7F-1.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/TWIN-ENGINE/F7F/F7F-3.png">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="twin-primary">
+                                P-61
+                            </td>
+                            <td class="twin-secundary">
+                                <img class="aviones-imagen" src="../IMG/USA/TWIN-ENGINE/P-61/P-61A-11.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/TWIN-ENGINE/P-61/P-61C-1.png">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="twin-primary">
+                                Others
+                            </td>
+                            <td class="twin-secundary">
+                                <img class="aviones-imagen" src="../IMG/USA/TWIN-ENGINE/OTHERS/XP-50.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/TWIN-ENGINE/OTHERS/XF5F.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/TWIN-ENGINE/OTHERS/F-82E.png">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <br>
+                <table class="strike">
+                    <thead>
+                        <tr>
+                            <th colspan="2" align="center">
+                                <h1 class="strike-title">Strike Aircraft</h1>
+                                <span class="strike-button" role="button">
+                                    <span>[</span>
+                                    <a id="strike-span" onclick="strikeFunction()">Collapse</a>
+                                    <span>]</span>
+                                </span>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody id="strike-body">
+                        <tr>
+                            <td class="strike-primary" style="border-top: 1px solid #B0BEC5;">
+                                A-4
+                            </td>
+                            <td class="strike-secundary" style="border-top: 1px solid #B0BEC5;">
+                                <img class="aviones-imagen" src="../IMG/USA/STRIKE-AIRCRAFT/A-4/A-4E EARLY.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/STRIKE-AIRCRAFT/A-4/A-4B.png">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="strike-primary">
+                                A-7 CORSAIR II
+                            </td>
+                            <td class="strike-secundary">
+                                <img class="aviones-imagen" src="../IMG/USA/STRIKE-AIRCRAFT/A-7 CORSAIR II/A-7D.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/STRIKE-AIRCRAFT/A-7 CORSAIR II/A-7E.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/STRIKE-AIRCRAFT/A-7 CORSAIR II/A-7K.png">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="strike-primary">
+                                A-10
+                            </td>
+                            <td class="strike-secundary">
+                                <img class="aviones-imagen" src="../IMG/USA/STRIKE-AIRCRAFT/A-10/A-10A.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/STRIKE-AIRCRAFT/A-10/A-10A LATE.png">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="strike-primary">
+                                A-26
+                            </td>
+                            <td class="strike-secundary">
+                                <img class="aviones-imagen" src="../IMG/USA/STRIKE-AIRCRAFT/A-26/A-26B-10.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/STRIKE-AIRCRAFT/A-26/A-26B-50.png">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="strike-primary">
+                                Ad Skyraider
+                            </td>
+                            <td class="strike-secundary">
+                                <img class="aviones-imagen" src="../IMG/USA/STRIKE-AIRCRAFT/AD SKYRAIDER/A-1H.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/STRIKE-AIRCRAFT/AD SKYRAIDER/AD-2.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/STRIKE-AIRCRAFT/AD SKYRAIDER/AD-4.png">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="strike-primary">
+                                PBJ-1
+                            </td>
+                            <td class="strike-secundary">
+                                <img class="aviones-imagen" src="../IMG/USA/STRIKE-AIRCRAFT/PBJ-1/PBJ-1H.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/STRIKE-AIRCRAFT/PBJ-1/PBJ-1J.png">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="strike-primary">
+                                DB-7
+                            </td>
+                            <td class="strike-secundary">
+                                <img class="aviones-imagen" src="../IMG/USA/STRIKE-AIRCRAFT/DB-7/A-20G-25.png">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="strike-primary">
+                                F-84
+                            </td>
+                            <td class="strike-secundary">
+                                <img class="aviones-imagen" src="../IMG/USA/STRIKE-AIRCRAFT/F-84/F-84B-26.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/STRIKE-AIRCRAFT/F-84/F-84G-21-RE.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/STRIKE-AIRCRAFT/F-84/F-84F.png">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="strike-primary">
+                                F-86
+                            </td>
+                            <td class="strike-secundary">
+                                <img class="aviones-imagen" src="../IMG/USA/STRIKE-AIRCRAFT/F-86/FJ-4B.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/STRIKE-AIRCRAFT/F-86/FJ-4B VMF-232.png">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="strike-primary">
+                                Harrier
+                            </td>
+                            <td class="strike-secundary">
+                                <img class="aviones-imagen" src="../IMG/USA/STRIKE-AIRCRAFT/HARRIER/AV-8A.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/STRIKE-AIRCRAFT/HARRIER/AV-8C.png">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="strike-primary">
+                                Others
+                            </td>
+                            <td class="strike-secundary">
+                                <img class="aviones-imagen" src="../IMG/USA/STRIKE-AIRCRAFT/OTHERS/A-36.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/STRIKE-AIRCRAFT/OTHERS/A-6E TRAM.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/STRIKE-AIRCRAFT/OTHERS/A2D-1.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/STRIKE-AIRCRAFT/OTHERS/AM-1.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/STRIKE-AIRCRAFT/OTHERS/AU-1.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/STRIKE-AIRCRAFT/OTHERS/F-105D.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/STRIKE-AIRCRAFT/OTHERS/F-111A.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/STRIKE-AIRCRAFT/OTHERS/F3D-1.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/STRIKE-AIRCRAFT/OTHERS/XA-38.png">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <br>
+                <table class="bombers">
+                    <thead>
+                        <tr>
+                            <th colspan="2" align="center">
+                                <h1 class="bombers-title">Bombers</h1>
+                                <span class="bombers-button" role="button">
+                                    <span>[</span>
+                                    <a id="bombers-span" onclick="bombersFunction()">Collapse</a>
+                                    <span>]</span>
+                                </span>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody id="bombers-body">
+                        <tr>
+                            <td class="bombers-primary" style="border-top: 1px solid #B0BEC5;">
+                                Dive
+                            </td>
+                            <td class="bombers-secundary" style="border-top: 1px solid #B0BEC5;">
+                                <img class="aviones-imagen" src="../IMG/USA/BOMBERS/DIVE/SB2U-2.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/BOMBERS/DIVE/SB2U-3.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/BOMBERS/DIVE/SBD-3.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/BOMBERS/DIVE/SB2C-1.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/BOMBERS/DIVE/SB2C-4.png">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="bombers-primary">
+                                Torpedo
+                            </td>
+                            <td class="bombers-secundary">
+                                <img class="aviones-imagen" src="../IMG/USA/BOMBERS/TORPEDO/TBD-1.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/BOMBERS/TORPEDO/PBY-5 CATALINA.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/BOMBERS/TORPEDO/PBY-5A CATALINA.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/BOMBERS/TORPEDO/TBF-1C.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/BOMBERS/TORPEDO/BTD-1.png">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="bombers-primary">
+                                Medium
+                            </td>
+                            <td class="bombers-secundary">
+                                <img class="aviones-imagen" src="../IMG/USA/BOMBERS/MEDIUM/B-10B.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/BOMBERS/MEDIUM/B-18A.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/BOMBERS/MEDIUM/B-34.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/BOMBERS/MEDIUM/PV-2D.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/BOMBERS/MEDIUM/B-25J-1.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/BOMBERS/MEDIUM/B-25J-20.png">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="bombers-primary">
+                                Heavy
+                            </td>
+                            <td class="bombers-secundary">
+                                <img class="aviones-imagen" src="../IMG/USA/BOMBERS/HEAVY/B-17E.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/BOMBERS/HEAVY/B-17EL.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/BOMBERS/HEAVY/B-17G-60-VE.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/BOMBERS/HEAVY/PB4Y-2.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/BOMBERS/HEAVY/B-24D-25-CO.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/BOMBERS/HEAVY/B-29A-BN.png">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="bombers-primary">
+                                Hydroplanes
+                            </td>
+                            <td class="bombers-secundary">
+                                <img class="aviones-imagen" src="../IMG/USA/BOMBERS/HYDROPLANES/OS2U-1.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/BOMBERS/HYDROPLANES/OS2U-3.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/BOMBERS/HYDROPLANES/PBM-1 MARINER.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/BOMBERS/HYDROPLANES/PBM-3 MARINER.png">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <br>
+                <table class="aircraft">
+                    <thead>
+                        <tr>
+                            <th colspan="2" align="center">
+                                <h1 class="aircraft-title">Aircraft</h1>
+                                <span class="aircraft-button" role="button">
+                                    <span>[</span>
+                                    <a id="aircraft-span" onclick="aircraftFunction()">Collapse</a>
+                                    <span>]</span>
+                                </span>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody id="aircraft-body">
+                        <tr>
+                            <td class="aircraft-primary" style="border-top: 1px solid #B0BEC5;">
+                                F-4
+                            </td>
+                            <td class="aircraft-secundary" style="border-top: 1px solid #B0BEC5;">
+                                <img class="aviones-imagen" src="../IMG/USA/AIRCRAFT/F-4/F-4C PHANTOM II.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/AIRCRAFT/F-4/F-4E PHANTOM II.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/AIRCRAFT/F-4/F-4J PHANTOM II.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/AIRCRAFT/F-4/F-4S PHANTOM II.png">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="aircraft-primary">
+                                F-5
+                            </td>
+                            <td class="aircraft-secundary">
+                                <img class="aviones-imagen" src="../IMG/USA/AIRCRAFT/F-5/F-5A.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/AIRCRAFT/F-5/F-5C.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/AIRCRAFT/F-5/F-5E.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/AIRCRAFT/F-5/F-20A.png">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="aircraft-primary">
+                                F-8
+                            </td>
+                            <td class="aircraft-secundary">
+                                <img class="aviones-imagen" src="../IMG/USA/AIRCRAFT/F-8/F8U-2.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/AIRCRAFT/F-8/F-8E.png">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="aircraft-primary">
+                                F-80
+                            </td>
+                            <td class="aircraft-secundary">
+                                <img class="aviones-imagen" src="../IMG/USA/AIRCRAFT/F-80/F-80A-5.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/AIRCRAFT/F-80/F-80C-10.png">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="aircraft-primary">
+                                F-84
+                            </td>
+                            <td class="aircraft-secundary">
+                                <img class="aviones-imagen" src="../IMG/USA/AIRCRAFT/F-84/F-84B-26.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/AIRCRAFT/F-84/F-84F.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/AIRCRAFT/F-84/F-84G-21-RE.png">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="aircraft-primary">
+                                F-86
+                            </td>
+                            <td class="aircraft-secundary">
+                                <img class="aviones-imagen" src="../IMG/USA/AIRCRAFT/F-86/F-86A-5.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/AIRCRAFT/F-86/F-86F-25.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/AIRCRAFT/F-86/F-86F-2.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/AIRCRAFT/F-86/F-86F-35.png">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="aircraft-primary">
+                                F-89
+                            </td>
+                            <td class="aircraft-secundary">
+                                <img class="aviones-imagen" src="../IMG/USA/AIRCRAFT/F-89/F-89B.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/AIRCRAFT/F-89/F-89D.png">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="aircraft-primary">
+                                F-100
+                            </td>
+                            <td class="aircraft-secundary">
+                                <img class="aviones-imagen" src="../IMG/USA/AIRCRAFT/F-100/F-100D.png">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="aircraft-primary">
+                                F-104
+                            </td>
+                            <td class="aircraft-secundary">
+                                <img class="aviones-imagen" src="../IMG/USA/AIRCRAFT/F-104/F-104A.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/AIRCRAFT/F-104/F-104C.png">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="aircraft-primary">
+                                F-14
+                            </td>
+                            <td class="aircraft-secundary">
+                                <img class="aviones-imagen" src="../IMG/USA/AIRCRAFT/F-14/F-14A EARLY.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/AIRCRAFT/F-14/F-14B.png">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="aircraft-primary">
+                                F-15
+                            </td>
+                            <td class="aircraft-secundary">
+                                <img class="aviones-imagen" src="../IMG/USA/AIRCRAFT/F-15/F-15A.png">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="aircraft-primary">
+                                F-16
+                            </td>
+                            <td class="aircraft-secundary">
+                                <img class="aviones-imagen" src="../IMG/USA/AIRCRAFT/F-16/F-16A.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/AIRCRAFT/F-16/F-16A ADF.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/AIRCRAFT/F-16/F-16C.png">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="aircraft-primary">
+                                F9F
+                            </td>
+                            <td class="aircraft-secundary">
+                                <img class="aviones-imagen" src="../IMG/USA/AIRCRAFT/F9F/F9F-2.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/AIRCRAFT/F9F/F9F-5.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/AIRCRAFT/F9F/F9F-8.png">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="aircraft-primary">
+                                Others
+                            </td>
+                            <td class="aircraft-secundary">
+                                <img class="aviones-imagen" src="../IMG/USA/AIRCRAFT/OTHERS/P-59A.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/AIRCRAFT/OTHERS/F2H-2.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/AIRCRAFT/OTHERS/F3D-1.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/AIRCRAFT/OTHERS/F3H-2.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/AIRCRAFT/OTHERS/F4D-1.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/AIRCRAFT/OTHERS/F11F-1.png">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="aircraft-primary">
+                                FJ-4
+                            </td>
+                            <td class="aircraft-secundary">
+                                <img class="aviones-imagen" src="../IMG/USA/AIRCRAFT/FJ-4/FJ-4B.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/AIRCRAFT/FJ-4/FJ-4B VMF-232.png">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="aircraft-primary">
+                                A-4
+                            </td>
+                            <td class="aircraft-secundary">
+                                <img class="aviones-imagen" src="../IMG/USA/AIRCRAFT/A-4/A-4B.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/AIRCRAFT/A-4/A-4E EARLY.png">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="aircraft-primary">
+                                A-6
+                            </td>
+                            <td class="aircraft-secundary">
+                                <img class="aviones-imagen" src="../IMG/USA/AIRCRAFT/A-6/A-6E TRAM.png">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="aircraft-primary">
+                                A-7
+                            </td>
+                            <td class="aircraft-secundary">
+                                <img class="aviones-imagen" src="../IMG/USA/AIRCRAFT/A-7/A-7D.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/AIRCRAFT/A-7/A-7E.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/AIRCRAFT/A-7/A-7K.png">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="aircraft-primary">
+                                AV-8
+                            </td>
+                            <td class="aircraft-secundary">
+                                <img class="aviones-imagen" src="../IMG/USA/AIRCRAFT/AV-8/AV-8A.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/AIRCRAFT/AV-8/AV-8C.png">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="aircraft-primary">
+                                A-10
+                            </td>
+                            <td class="aircraft-secundary">
+                                <img class="aviones-imagen" src="../IMG/USA/AIRCRAFT/A-10/A-10A.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/AIRCRAFT/A-10/A-10A LATE.png">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="aircraft-primary">
+                                B-57
+                            </td>
+                            <td class="aircraft-secundary">
+                                <img class="aviones-imagen" src="../IMG/USA/AIRCRAFT/B-57/B-57A.png">
+                                &nbsp;
+                                <img class="aviones-imagen" src="../IMG/USA/AIRCRAFT/B-57/B-57B.png">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="aircraft-primary">
+                                F-105
+                            </td>
+                            <td class="aircraft-secundary">
+                                <img class="aviones-imagen" src="../IMG/USA/AIRCRAFT/F-105/F-105D.png">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="aircraft-primary">
+                                F-111
+                            </td>
+                            <td class="aircraft-secundary">
+                                <img class="aviones-imagen" src="../IMG/USA/AIRCRAFT/F-111/F-111A.png">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div align="center" class="minimenu">
+                <p><a href="../HTML/4_About us.html">About us</a>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="./5_Contact us.html">Contact us</a>
+                </p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <table>
+            <tr>
+                <td>
+                    <img class="icono_pie" src="../IMG/NOSOTROS/logo_circulo.png" alt="logo">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </td>
+                <td>
+                    <p>© 2024 Teams-MilitaryAir. All trademarks, logos and brand names are the property of their
+                        respective owners.
+                        Jordi Montero - Josep Fiestas - Carler Pellitero - Miguel Rodriguez</p>
+                    <p><u>Terms and Conditiones</u>&nbsp;&nbsp;
+                        <u>Terms of Service</u>&nbsp;&nbsp;
+                        <u>Privacy Policy</u>&nbsp;&nbsp;
+                        <u>Cookies Policy</u>&nbsp;&nbsp;
+                    </p>
+                </td>
+            </tr>
+        </table>
+    </footer>
+    <script src="../JS/list_suggestions.js"></script>
+    <script src="../JS/suggestions.js"></script>
+</body>
+</html>
