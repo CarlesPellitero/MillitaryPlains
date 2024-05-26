@@ -95,6 +95,7 @@ html{
 }
 
 .minimenu{
+    text-align: center;
     padding: 15px;
     padding-bottom: 25px;
 }
@@ -268,6 +269,6 @@ header p {
     text-align: center;
 }
 
-p {
+th p {
     font-size: 34px;
 }
