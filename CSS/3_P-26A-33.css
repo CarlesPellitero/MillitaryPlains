@@ -220,7 +220,7 @@ footer {
 .container {
     max-width: 1000px;
     padding-left: 265px;
-    padding-top: 19px;
+    padding-top: 6px;
 }
 
 ::placeholder {
@@ -323,14 +323,14 @@ header {
     position: absolute;
     left: 20px;
     top: 50%;
-    padding-top: 48px;
+    padding-top: 34px;
     transform: translateY(-50%);
     width: 100px;
     height: auto;
 }
 
 header h1 {
-    font-size: 3.5em;
+    font-size: 2.8em;
     color: #333;
     font-weight: 700;
     margin: 0 auto;
@@ -340,4 +340,13 @@ header p {
     font-size: 1.5em;
     color: #666;
     font-weight: 300;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+}
+
+header a:hover {
+    color: #0056b3;
 }
